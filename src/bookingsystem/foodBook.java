@@ -583,7 +583,7 @@ public class foodBook extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         try{
-            FileInputStream file = new FileInputStream("file2.bin"); //name of file where data will be added
+            FileInputStream file = new FileInputStream("file2.bin"); //name of file where data will be get
             ObjectInputStream input = new ObjectInputStream(file);
             
             //method for deserialization of object
